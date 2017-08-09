@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e3cb02-86f7-41cb-b1e5-287b6e3d1128" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config(old).toml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/hello-world/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/categories/uncategorized/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/categories/uncategorized/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/agency.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-v3.3.7/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap-v3.3.7/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/jquery.form-validator-v2.3.44/theme-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/jquery.form-validator-v2.3.44/theme-default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/font-awesome-v4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/bootstrap-v3.3.7/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/bootstrap-v3.3.7/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/bootstrap-v3.3.7/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/bootstrap-v3.3.7/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/bootstrap-v3.3.7/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/404/404.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/about/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/about/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/about/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/about/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/header-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/aetuts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/creative-market.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/designmodo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/envato.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/microlancer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/themeforest.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logos/wordpress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/map-image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/dreams-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/dreams.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/escape-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/escape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/golden-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/golden.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/roundicons-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/roundicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/startup-framework-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/startup-framework.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/treehouse-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/treehouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/agency.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap-v3.3.7/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap-v3.3.7/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-v3.3.1/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-v3.3.1/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.form-validator-v2.3.44/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.form-validator-v2.3.44/jquery.form-validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.form-validator-v2.3.44/security.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.form-validator-v2.3.44/toggleDisabled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/about/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/about/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/about/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/about/4.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/header-bg.jpg" afterPath="$PROJECT_DIR$/static/img/header-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-agency-theme" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,8 +20,8 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3861">
-              <caret line="324" column="54" lean-forward="false" selection-start-line="324" selection-start-column="54" selection-end-line="324" selection-end-column="54" />
+            <state relative-caret-position="501">
+              <caret line="114" column="52" lean-forward="true" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -325,12 +248,12 @@
       <workItem from="1499241330832" duration="72000" />
       <workItem from="1502244284901" duration="2294000" />
       <workItem from="1502248176190" duration="517000" />
-      <workItem from="1502254459664" duration="2458000" />
+      <workItem from="1502254459664" duration="2493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7167000" />
+    <option name="totallyTimeSpent" value="7202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -500,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3861">
-          <caret line="324" column="54" lean-forward="false" selection-start-line="324" selection-start-column="54" selection-end-line="324" selection-end-column="54" />
+        <state relative-caret-position="501">
+          <caret line="114" column="52" lean-forward="true" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
           <folding />
         </state>
       </provider>
