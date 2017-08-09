@@ -52,7 +52,7 @@ googleAnalytics = ""
     #portfolio = "Portfolio"
     about = "Tentang"
     team = "Tim"
-    contact = "Kontak"
+    #contact = "Kontak"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -128,35 +128,52 @@ googleAnalytics = ""
     enable = true
     title = "Tentang Kami"
     subtitle = "Kami adalah gerakan non-profit yang ingin memberikan alternatif sumber informasi mengenai cagar budaya di Indonesia."
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "gabung <br>bersama<br> kami !"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "ft-1.jpg"
+      date = "17 Desember 2016"
+      title = "Fieldtrip #1 - Jelajah Candi #1"
+      description = "Kegiatan merupakan fieldtrip perdana komunitas cagarbudayaID yang dilaksanakan pada 17 Desember 2016 dengan mengunjungi situs Candi Sambisari, Candi Plaosan dan Candi Sojiwan"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "ft-2.jpg"
+      date = "21 Januari 2017"
+      title = "Fieldtrip #2 - Jelajah Candi #2"
+      description = "Kegiatan ini berlangsung pada 21 Januari 2017 yang dilaksanakan di Candi Sari, Candi Sewu, Candi Ghana dan Candi Kalasan."
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "ft-3.png"
+      date = "5 Februari 2017"
+      title = "Fieldtrip #3 - Situs Mataram Islam di Pleret"
+      description = "Dengan mengambil tema peninggalan Mataram Islam saat kepindahannya dari Kotagede, kami berkunjung ke situs Pleret yang banyak menceritakan tentang kejayaan Mataram Islam. Kegiatan ini dilaksanakan pada 5 Februari 2017."
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "ft-4.jpg"
+      date = "26 Maret 2017"
+      title = "Fieldtrip #4 - Jejak Peradaban di Kotagede"
+      description = "Pada trip kali ini selain kunjungan lapangan di kawasan Kotagede, kami juga bekerja sama dengan komunitas ‘Lawang Pethuk’ untuk mengisi materi pada trip kali ini. Selain materi mengenai sejarah dan cagar budaya, kami juga mengadakan live sketching untuk peserta."
 
+    [[params.about.events]]
+      img = "ft-5.jpg"
+      date = "29 April 2017"
+      title = "Fieldtrip #5 -Jelajah ‘Shiva Plateau’"
+      description = "Memahami Konsep Nirwana dalam Pembangunan Candi-candi di Indonesia merupakan materi trip kali ini. Kawasan ‘Shiva Plateau’ memiliki situs-situs arkeologi yang masih belum banyak dibahas. Kegiatan ini dilaksanakan pada 29 April 2017."
+
+    [[params.about.events]]
+      img = "kt-1.jpg"
+      date = "20 Mei 2017"
+      title = "Kolaboratrip #1 - Komunitas Batik Sojiwan"
+      description = "Kegitan kolaboratrip pertama dilaksanakan bersama dengan Komunitas Batik Sojiwan. KOmunitas ini memiliki produk  batik dengan motif yang diadaptasi dari relief-relief yang berada di Candi Sojiwan. Pertama-tama, peserta fieldtrip diajak berkeliling untuk memahami cerita-cerita dibalik relief-relief yang kemudian dilanjutkan membatik di halaman candi."
+
+    [[params.about.events]]
+      img = "ft-6.png"
+      date = "30 Juli 2017"
+      title = "Fieldtrip #6 - Evolusi Kotabaru dari jaman ke jaman"
+      description = "Kawasan Kolonial Kotabaru merupakan kawasan yang sangat menarik untuk dibahas. Dalam bentuk arsitektur, kawasan ini kaya akan corak bangunan belanda. Dalam hal sejarah pun, kawasan ini memiliki cerita-cerita yang menarik."
 
   # Team section
   [params.team]
@@ -239,7 +256,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
@@ -300,16 +317,16 @@ She worked at Pied Piper for years until they went belly up."""
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/cagarbudayakita/"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+      icon = "fa-instagram"
+      link = "https://www.instagram.com/cagarbud_kita/"
 
-    #[[params.footer.social]]
-      #icon = "fa-linkedin"
-      #link = "#"
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://id.linkedin.com/company/cagar-budaya-id"
 
     #[[params.footer.quicklinks]]
       #text = "Privacy Policy"
