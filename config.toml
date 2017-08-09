@@ -1,116 +1,320 @@
-baseurl = "http://cagarbudaya.id/"
-languageCode = "ID-id"
+# Site settings
+baseurl = "https://cagarbudaya.id/"
+languageCode = "en-us"
 title = "Cagar Budaya Indonesia"
-theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 3
-# disqusShortname = "shortname"
-# googleAnalytics = ""
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
 
 [params]
-    # Sets the meta tag description, usually reserved for the main page
-    description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
-    # This will appear on the top left of the navigation bar
-    navbarTitle          = "Cagar Budaya Indonesia"
-    # Social media buttons that appear on the sidebar
-    socialAppearAtTop    = true
-    socialAppearAtBottom = false
-    # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
 
-# Optional Params
-    categoriesByCount    = true
-    includeReadingTime   = true
-    # The set of favicons used are based on the write-up from this link:
-    # https://github.com/audreyr/favicon-cheat-sheet
-    # Please see the favicon partial template for more information
-    loadFavicon          = false
-    faviconVersion       = ""
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Cagar Budaya Indonesia"
+  description = "Your description"
 
-    # Load custom CSS or JavaScript files. This replaces the deprecated params
-    # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
-    # can load multiple files if necessary. You can also load the standard theme
-    # files by adding the value, "default".
-    # customCSS            = ["default", "/path/to/file"]
-    # customJS             = ["default", "/path/to/file"]
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
 
-    # Loading min files for exampleSite
-    # customCSS            = ["/css/main.min.css"]
-    # customJS             = ["/js/main.min.js"]
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
 
-# parms.intro will appear on the sidebar
-# This is optional, but it's suggested to use
-[params.intro]
-    header    = "Cagar Budaya Indonesia"
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
 
-    paragraph = "DARI MASA LAMPAU UNTUK MASA DEPAN"
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
-    about     = "Kami adalah gerakan non-profit yang ingin memberikan alternatif sumber informasi mengenai cagar budaya di Indonesia."
+  # Navigation
+  [params.navigation]
+    brand = "Cagar Budaya Indonesia"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    #services = "Services"
+    #portfolio = "Portfolio"
+    about = "Tentang"
+    team = "Tim"
+    contact = "Kontak"
 
-# This will also appear on the sidebar.
-# A width of less than 100px is recommended
-# This is optional
-[params.intro.pic]
-    src       = "/img/main/logo_cagarbudaya_id.jpg"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = false
-    imperfect = true
-    width     = ""
-    alt       = "Cagar Budaya Id"
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
 
-# Adjust the amount of recent posts on the sidebar.
-# This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 5
+    # prepended links
+    [[menu.prepend]]
+      url = "http://cerita.cagarbudaya.id"
+      name = "Cerita"
+      weight = 10
 
-# Set up your menu items in the navigation bar
-# You can use identifier to prepend a font awesome icon to your text
-[[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    # identifier = "fa fa-newspaper-o"
-    weight = 1
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://cerita.cagarbudaya.id"
+    #  name = "Cerita"
+    #  weight = 10
 
-# [[menu.main]]
-    # name = "Categories"
-    # url = "/categories"
-    # weight = 2
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "dari masa lampau untuk masa depan"
+    #subtitle = ""
+    #buttonText = ""
 
-# Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
-# The social media icons will appear on the sidebar
-[social]
-    github          = ""
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = "cagarbud_kita"
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = ""
-    slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = "cagarbudayakita"
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = ""
-    email           = "infocagarbudaya@gmail.com"
+
+  # Services section
+  [params.services]
+    enable = false
+    title = "Services"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-shopping-cart"
+      title = "E-Commerce"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Responsive Design"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = false
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Tentang Kami"
+    subtitle = "Kami adalah gerakan non-profit yang ingin memberikan alternatif sumber informasi mengenai cagar budaya di Indonesia."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "2009-2011"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "March 2011"
+      title = "An Agency is Born"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "December 2012"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "July 2014"
+      title = "Phase Two Expansion"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Tim Kami"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = ""
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "your@email.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    #[[params.footer.social]]
+      #icon = "fa-linkedin"
+      #link = "#"
+
+    #[[params.footer.quicklinks]]
+      #text = "Privacy Policy"
+      #link = "#"
+
+    #[[params.footer.quicklinks]]
+      #text = "Terms of Use"
+      #link = "#"
