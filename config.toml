@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://cagarbudaya.id/"
+baseurl = "http://cagarbudaya.id/"
 languageCode = "en-us"
 title = "Cagar Budaya Indonesia"
 theme = "hugo-agency-theme"
